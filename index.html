@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Librería a domicilio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="font-weight: bold;">
+                    <img src="assets/img/Kitta_libreria.png" alt="Logo" height="24"
+                        class="d-inline-block align-text-top">
+                    Kitta Librería
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Compras</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text px-2" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions"><i class="fa-solid fa-basket-shopping"
+                            style="color: white;"></i></span>
+                    <span class="navbar-text px-2"><i class="fa-solid fa-user" style="color: white;"></i></span>
+                    <span class="navbar-text px-2"><i class="fa-solid fa-search" style="color: white;"></i></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/banner_libreria.jpg" class="bd-placeholder-img" width="100%" height="50%"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#777" /></svg>
+                <div class="container">
+                    <div class="carousel-caption text-center p-5">
+                        <h1>Librería a domicilio.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="p-5 container-fluid">
+        <div class="row">
+            <div class="col-md-3 mb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Categorías</h3>
+                        <br>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Libros nuevos
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="index.html">
+                                            <ul style="cursor: pointer;">
+                                                <li>Arte</li>
+                                                <li>Terror</li>
+                                                <li>Romance</li>
+                                                <li>Economía</li>
+                                                <li>Biografía</li>
+                                                <li>Computación y tecnología de la información</li>
+                                                <li>Ficción</li>
+                                                <li>Derecho</li>
+                                                <li>Ocio</li>
+                                                <li>Medicina</li>
+                                            </ul>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Editorial
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="index.html">
+                                            <ul style="cursor: pointer;">
+                                                <li>Planera Junior</li>
+                                                <li>El gato de Hojalata</li>
+                                                <li>Pi Kids</li>
+                                                <li>Phidal</li>
+                                                <li>Penguin</li>
+                                                <li>Eurosur</li>
+                                                <li>Disney</li>
+                                                <li>Martinez de roca</li>
+                                                <li>Publications International Ltd.</li>
+                                            </ul>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Año de edición
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <a href="index.html">
+                                            <ul style="cursor: pointer;">
+                                                <li>2024</li>
+                                                <li>2023</li>
+                                                <li>2020</li>
+                                                <li>2018</li>
+                                                <li>2017</li>
+                                                <li>2015</li>
+                                                <li>2011</li>
+                                                <li>2010</li>
+                                                <li>2000</li>
+                                            </ul>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9 row" id="Libros">
+            
+            </div>
+
+            <div class="col-md-9 row" id="Libros">
+            
+            </div>
+        </div>
+    </section>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Carrito de compras</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p id="resultado">Try scrolling the rest of the page to see this option in action.</p>
+            <p id="TotalLibros">0</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/libreria.js"></script>
+
+
+</body>
+
+</html>
